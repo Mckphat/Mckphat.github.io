@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href = "main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src = "app.js"></script>
+    
+    <title>Hi</title>
+    
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class = "navigation">
+        <nav>
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li><a href="#section-2">Projects</a></li>
+                <!--
+                <li><a href="#">Resume</a></li>
+                -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class = "section-1">
+        <div class = "card">
+            <img src = "/image/me.JPG">
+            <p id = "bio">
+                <b>Name: </b> Kannika Phatsavong <br>
+                <b>Preferred name:</b> Mick <br>
+                <b>Major:</b> Computer Science <br>
+                <b>A little bit about me: </b> <br>
+                Hi guys, my name is Mick and I am a student majoring in Computer Science.<br>
+                My initial interest was app and gaming development, but lately I've been really into web-development
+                and I want to be able to create fun and informative websites for people :)
+
+            </p>
+        </div>
+    </div>
+
+    <hr class = "rounded">
+
+    <div id = "section-2">
+        <h1 class = "titles">Visualization Work with Tableau</h1>
+        <div class="project-info" data-aos="fade-right" data-aos-duration="2000">
+            <h2 class = "subheading">Starbucks fit or fat</h2>
+
+            <p class="information">
+                A data visualization showing Starbucks' main menu items consisting of tree maps and
+                packed bubbles to have the dataset in an understandable and interactive format.
+                ​
+            </p>
+            
+            <a href="https://public.tableau.com/views/StarbucksMenuNutrients/StarbucksMacros?:language=en&:display_count=y&:origin=viz_share_link"
+                class="button" target="_blank">
+                Click here to view Visualization</a>
+
+            </div>
+
+
+            <div class="project-info" data-aos="fade-right" data-aos-duration="2000">
+                <h2 class = "subheading" style = "margin: 50px 0px 0px 0px;">Travel to a Ramen Destination</h2>
+                <p class="information">
+                    ​A somewhat data visualization showing people's favorite ramen brand and showing ramens from different countries
+                    in Asia.
+                </p>
+            
+                <a href="https://public.tableau.com/shared/NW4N8KN88?:display_count=y&:origin=viz_share_link" class="button"
+                    target="_blank">
+                    Click here to view Visualization</a>
+
+            </div>
+
+            <h1 class = "titles" style = "margin: 50px 0px 0px 0px;">Web Development Projects</h1>
+
+            <div class="project-info" data-aos="fade-up" data-aos-duration="2000">
+                <h2 class = "subheading">Personal Portfolio</h2>
+                <p class=information>
+                    My bio website, aka the one you are on right now, will be here to showcase and update
+                    my projects and other stuff I do. This website will be forever ongoing. <br><br>
+                    <b><span style="color:rgb(221, 84, 84)">Languages used to help build</span>: <span
+                            style="color:rgb(29, 218, 155)">HTML,CSS,JS</span></b>
+                </p>
+            </div>
+    </div>
+
+    
+   <div class = "section-3">
+       <h1 id = "content">Content Creation</h1>
+    SECTION IS UNDER CONSTRUCTION AT THE MOMENT
+       <!--PUT PHOTOGRAPHY AND VIDEO EDITING STUFF HERE I GUESS-->
+   </div>
+
+
+
+<hr>
+
+
+<div id="contact">
+    <h1 id="get-me">CONTACT</h1>
+    <p id="reach-me">Feel free to
+        <span style="color: rgb(17, 176, 224)">reach out</span> && <br>
+        <span style="color: rgb(17, 176, 224)">contact me</span> for any reason <br>
+        <span id="e-mail" style="color: rgb(41, 216, 172);">mck.phatsavong@gmail.com</span>
+    </p>
+</div>
+
+<footer>
+    <div id="end">
+        <span id="credit">© 2020 | Designed by Kannika Phatsavong</span>
+</footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+    <div class="apple">
+        <div class="terminal">
+            <div class="terminal__banner">
+                <span class="terminal__circle red"></span>
+                <span class="terminal__circle yellow"></span>
+                <span class="terminal__circle green"></span>
+            </div>
+            <div class="terminal__body">
+                <span class="terminal__text"> Hi-hello ~ $</span>
+                
+                <span class="terminal__cursor"></span>
+            </div>
+        </div>
+    </div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+
+
+
+
+
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
