@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(57, 65, 73);
+    font-family: monospace;
+}
+nav {
+    position: relative;
+    padding-bottom: 12px;
+
+    .line {
+        height: 2px;
+        position: absolute;
+        bottom: 0px;
+        margin: 10px 0 0 0;
+        background: #06f8b0;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+
+        li{
+            margin: 0 40px 0 0;
+            opacity: .4;
+            transition: all 0.4s ease;
+            &:hover{
+                opacity: .7;
+            }
+            &:active {
+                opacity: 1;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                display: block;
+                letter-spacing: .2em;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.apple {
+  max-width: 650px;
+  margin: 50px auto;
+}
+
+.terminal {
+  &__banner {
+    background-color: #444444;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 7px 10px;
+  }
+
+  &__circle {
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    align-self: center;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    &::after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      display: block;
+      top: -1px;
+      font-size: 90%;
+    }
+
+    &.red {
+      background-color: #ee5f5b;
+      text-align: center;
+
+      &:hover {
+        &::after {
+          content: "\00D7";
+        }
+      }
+    }
+
+    &.yellow {
+      background-color: #f8be45;
+
+      &:hover {
+        &::after {
+          content: "\2212";
+        }
+      }
+    }
+
+    &.green {
+      background-color: #5dc94c;
+      text-align: center;
+      &::before {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: block;
+        font-size: 70%;
+      }
+
+      &:hover {
+        &::before {
+          content: "\22A0";
+        }
+      }
+    }
+  }
+
+  &__body {
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding-top: 7px;
+    border-radius: 15px;
+  }
+  &__text {
+    padding-left: 10px;
+    color: #fff;
+    font-family: "Roboto Mono", monospace;
+    vertical-align: middle;
+    display: inline-block;
+    user-select: none;
+  }
+
+  &__cursor {
+    vertical-align: middle;
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    background-color: rgba(225, 225, 225, 0.7);
+    animation: cursor 0.5s forwards infinite ease-in-out alternate;
+  }
+}
+
+@keyframes cursor {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+*/
