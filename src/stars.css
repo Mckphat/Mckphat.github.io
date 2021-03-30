@@ -189,7 +189,7 @@ span:nth-child(n+2) {
 .sky  span:nth-child(7){
     animation: moving-left 5s alternate infinite;
 }
-.sky  span:nth-child(20){
+.sky  span:nth-child(3n){
     animation: moving-right 7s alternate infinite;
 }
 .sky span:nth-child(even){
@@ -252,7 +252,8 @@ span:nth-child(n+2) {
 }
 @keyframes moving-left {
     0%{
-        transform: translateX(200px);
+        transform: translateX(200px) rotateZ(45deg);
+        
     }
     100%{
         transform: translateX(300px);
