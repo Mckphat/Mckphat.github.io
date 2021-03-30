@@ -8,4 +8,5 @@ Rennovation of personal portfolio/bio website
 * CSS
 * JS
 * [AOS LIBRARY](https://michalsnik.github.io/aos/)
+* Codepen inspirations
 
