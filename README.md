@@ -7,5 +7,5 @@ Rennovation of personal portfolio/bio website
 * HTML
 * CSS
 * JS
-* [AOS LIBRARY LINK](https://michalsnik.github.io/aos/)
+* [AOS LIBRARY](https://michalsnik.github.io/aos/)
 
