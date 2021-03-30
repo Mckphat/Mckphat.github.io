@@ -1,5 +1,5 @@
 # Website: 
-## www.Mckphat.github.io
+## Mckphat.github.io
 ## About
 Rennovation of personal portfolio/bio website
 
