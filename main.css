@@ -190,7 +190,9 @@ hr {
     font-size: larger;
     font-weight: 90;
 }
-
+#github {
+  margin-left: 1em;
+}
 
 
 
