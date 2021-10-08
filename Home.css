@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color:#252525;
+}
+.navi-menu{
+  display: flex;
+  align-items: center;
+  top: 45%;
+  left: 35%;
+  justify-content: center;
+  padding: 20px;
+}
+.navi-menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 40px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: monospace;
+  text-align: center;
+  padding: 50px;
+}
+.navi-menu a:hover {
+  transform:scale(1.1);
+}
+.navi-menu a:hover {
+  color: rgb(245, 222, 106);
+}
+/*make image relative??????*/
+.photo img{
+  transform: rotateY(180deg);
+  flex-basis: 50%;
+}
+.photo{
+  max-width: 100%;
+}
+.photo img:hover{
+  transform:scale(1.1);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.hi {
+  color: rgb(22, 22, 22);
+  font-family: Gluten;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.intro{
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.87);
+  box-shadow: 10px 10px 8px 10px #747474;
+  padding: 20px;
+}
+.intro:hover{
+  transform: scale(1.1);
+}
+#contact, #get-me{
+  text-align: center;
+  position: relative;
+}
+#get-me {
+  color:rgb(255, 255, 255);
+  font-family: sans-serif;
+  letter-spacing: .15em;
+  font-size: 15px;
+  background-color: rgba(197, 197, 197, 0.733);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  
+}
+#reach-me {
+  font-family: monospace;
+  line-height: 1.5;
+  font-size: 15px;
+  color:rgb(75, 75, 75);
+}
+#e-mail{
+  font-size: larger;
+  font-weight: 90;
+}
